@@ -4,7 +4,6 @@ export default function Contact() {
   return (
     <div className="flex flex-col items-center relative w-full">
       <div className="absolute -z-20 w-full h-full">
-        <div className="h-[12vh]" />
         <div className="bg-[#6e07f3] w-full h-full" />
       </div>
       <div className="px-5 py-8 w-[90%] lg:py-16 flex items-center justify-evenly flex-col space-y-8 lg:flex-row rounded-[20px] bg-[#141c3a]">
