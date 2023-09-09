@@ -17,7 +17,7 @@ export default function Hero() {
         transition={{
           duration: 1.5,
         }}
-        className="text-xl lg:4xl text-center font-bold text-indigo-600"
+        className="text-xl lg:text-4xl text-center font-bold text-indigo-600"
       >
         <Typewriter
           words={[
@@ -34,7 +34,7 @@ export default function Hero() {
           loop={true}
         />
       </motion.div>
-      <h1 className="pt-10 text-md lg:3xl font-semibold text-center">
+      <h1 className="pt-10 text-md lg:text-3xl font-semibold text-center">
         Crafting code that brings ideas to life, one algorithm at a time.
       </h1>
       <div className="pt-10 flex-col flex items-center">
