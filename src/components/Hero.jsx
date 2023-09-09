@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center mt-14">
+    <div className="w-full flex flex-col items-center mt-5 lg:mt-14">
       <motion.div
         initial={{
           opacity: 0,
@@ -17,7 +17,7 @@ export default function Hero() {
         transition={{
           duration: 1.5,
         }}
-        className="text-4xl font-bold text-indigo-600"
+        className="text-xl lg:4xl text-center font-bold text-indigo-600"
       >
         <Typewriter
           words={[
@@ -34,7 +34,7 @@ export default function Hero() {
           loop={true}
         />
       </motion.div>
-      <h1 className="pt-10 text-3xl font-semibold">
+      <h1 className="pt-10 text-md lg:3xl font-semibold text-center">
         Crafting code that brings ideas to life, one algorithm at a time.
       </h1>
       <div className="pt-10 flex-col flex items-center">

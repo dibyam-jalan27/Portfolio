@@ -22,11 +22,11 @@ const Details = ({ type, time, place, info }) => {
           type: "spring",
         }}
       >
-        <h3 className="capitalize font-bold text-2xl">{type}</h3>
+        <h3 className="capitalize font-bold text-lg lg:text-2xl">{type}</h3>
         <span className="capitaize font-semibold text-indigo-600/75">
           {time} | {place}
         </span>
-        <p className="font-medium w-full">{info}</p>
+        <p className="font-medium text-sm lg:text-md w-full">{info}</p>
       </motion.div>
     </li>
   );
@@ -38,7 +38,7 @@ const Education = () => {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="flex flex-col items-center pb-32">
+    <div className="flex flex-col items-center pb-32 w-full">
       <h2 className="pt-20 text-5xl font-bold text-indigo-900 mb-20">
         Education
       </h2>

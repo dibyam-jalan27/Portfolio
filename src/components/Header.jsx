@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Header = () => {
   return (
     <header>
-      <div className="w-full px-[2.4rem] py-[2.4rem] flex flex-row items-center text-center justify-between t-0">
+      <div className="w-full px-6 py-6 lg:px-[2.4rem] lg:py-[2.4rem] flex flex-row items-center text-center justify-between">
         <motion.button
           initial={{
             opacity: 0,
@@ -19,7 +19,7 @@ const Header = () => {
           }}
         >
           <img
-            className="h-20 w-20 rounded-full "
+            className="lg:h-20 lg:w-20 h-12 w-12 rounded-full "
             src="https://www.starpng.com/public/uploads/preview/dj-logo-dj-tatto-dj-soud-logo-dj-music-png-1024x1024-1015764122728kbgrmhxb1.png"
           />
         </motion.button>
@@ -36,7 +36,7 @@ const Header = () => {
             transition={{
               duration: 1,
             }}
-            className="text-[22px] border-2 border-indigo-400 text-indigo-400 px-5 py-3 rounded-full hover:text-white hover:bg-indigo-400"
+            className=" text-[11px] lg:text-[22px] border-2 border-indigo-400 text-indigo-400 px-3 py-2 lg:px-5 lg:py-3 rounded-full hover:text-white hover:bg-indigo-400"
           >
             Say Hello!
           </motion.button>

@@ -6,7 +6,7 @@ import Di from "../assets/Discord.png";
 
 const Cards = ({ image, name, tech, link, github, description }) => {
   return (
-    <div className=" bg-white flex flex-1 flex-col items-center mx-2  p-4 rounded-[20px] border shadow-md">
+    <div className=" bg-white flex flex-1 flex-col items-center mx-2 my-3 p-4 rounded-[20px] border shadow-md">
       <img
         className=" object-shrink rounded-2xl border-2 border-gray-200"
         src={image}
@@ -38,7 +38,7 @@ const Projects = () => {
         <h1 className="text-4xl font-bold text-white pt-[6rem] pb-[1rem] lg:pt-[10rem]">
           Projects
         </h1>
-        <p className="text-white text-xl font-medium px-[2.4rem] py-[2.4rem] w-[50rem] lg:w-[60rem] xl:w-[70rem] text-center">
+        <p className="text-white lg:text-xl font-medium px-2 py-2 lg:px-[2.4rem] lg:py-[2.4rem] w-full lg:w-[60rem] xl:w-[70rem] text-center">
           As someone who loves technology, I've tried out lots of apps on the
           internet and my phone. Eventually, I decided to try making my own.
           It's been a cool adventure, and you can check out some of my creations
@@ -77,8 +77,8 @@ I built a Discord clone using Prisma, Next.js, Tailwind CSS, and TypeScript, del
       </div>
       <div className="flex item-center justify-center my-20">
         <a href="https://github.com/dibyam-jalan27" target="_blank">
-          <button className="flex text-[22px] border-2 border-indigo-400 text-indigo-400 px-5 py-3 rounded-full hover:text-white hover:bg-indigo-400">
-            <AiFillGithub className="text-3xl mr-2" />
+          <button className="flex text-[11px] lg:text-[22px] border-2 border-indigo-400 text-indigo-400 px-3 lg:px-5 py-2 lg:py-3 rounded-full hover:text-white hover:bg-indigo-400">
+            <AiFillGithub className="text-lg lg:text-3xl mr-2" />
             Check out more Projects Here
           </button>
         </a>

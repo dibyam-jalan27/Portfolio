@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 export default function Footer() {
   return (
     <div className="flex flex-col items-center justify-center w-full  bg-[#6e07f3] pt-20 pb-16 text-[#e2cdfd]">
-      <p className="text-3xl text-center font-medium cursor-pointer w-[450px]">
+      <p className="text-xl lg:text-3xl text-center font-medium cursor-pointer w-full">
         Living, learning, & leveling up one day at a time.
       </p>
       <div className="flex flex-row space-x-5 pt-10">

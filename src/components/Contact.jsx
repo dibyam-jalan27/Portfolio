@@ -2,7 +2,7 @@ import React from "react";
 import { BsMailbox2 } from "react-icons/bs";
 export default function Contact() {
   return (
-    <div className="flex flex-col items-center relative">
+    <div className="flex flex-col items-center relative w-full">
       <div className="absolute -z-20 w-full h-full">
         <div className="h-[12vh]" />
         <div className="bg-[#6e07f3] w-full h-full" />

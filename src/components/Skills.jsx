@@ -6,23 +6,23 @@ import { GiArtificialIntelligence } from "react-icons/gi";
 
 function Skills() {
   return (
-    <div className="flex flex-col items-center relative">
+    <div className="flex flex-col items-center relative w-full">
       <div className="absolute h-[25vh] bg-[#6e07f3] w-full" />
-      <div className="z-20 border border-indigo-100 flex flex-col lg:flex-row bg-white sm:w-[90%] rounded-[15px] shadow-xl">
+      <div className="z-20 border border-indigo-100 flex flex-col lg:flex-row bg-white w-[90%] rounded-[15px] shadow-xl">
         <div className="flex-1 lg:border-r border-b flex flex-col items-center border-indigo-100 space-y-8 py-10 ">
           <BsCodeSlash className="text-7xl p-3 text-black-600 bg-[#5be9b9] rounded-full" />
-          <h1 className="text-2xl font-bold mx-5 text-center text-indigo-800">
+          <h1 className="lg:text-2xl text-lg font-bold mx-5 text-center text-indigo-800">
             Competitive Programming
           </h1>
-          <p className="text-center text-gray-600 font-semibold text-lg px-5">
+          <p className="text-center text-gray-600 font-semibold text-sm lg:text-lg px-5">
             Skilled in competitive programming, consistently delivering
             optimized solutions in coding challenges and contests.
           </p>
           <div>
-            <h3 className="text-center text-indigo-800 font-semibold text-lg px-5">
+            <h3 className="text-center text-indigo-800 font-semibold lg:text-lg px-5">
               Languages I use:
             </h3>
-            <div className="flex  items-center space-x-4 pt-4">
+            <div className="flex items-center space-x-4 pt-4">
               <img
                 alt="java"
                 src="https://th.bing.com/th/id/R.d96e9d49bafb33ca0f13109c8daa6502?rik=5Ca%2fwX7juwsZRQ&riu=http%3a%2f%2fvignette2.wikia.nocookie.net%2flogopedia%2fimages%2f2%2f26%2fJava.png%2frevision%2flatest%3fcb%3d20120902073224&ehk=nSXkq7nkK89z6IdqWVyk6RUgdtZeQ0n7cGwpAWiaBmc%3d&risl=&pid=ImgRaw&r=0"
@@ -71,10 +71,10 @@ function Skills() {
         </div>
         <div className="flex-1 lg:border-r border-b flex flex-col items-center border-indigo-100 space-y-8 py-10">
           <AiOutlineCode className="text-7xl p-3 text-black-600 bg-[#5be9b9] rounded-full" />
-          <h1 className="text-2xl font-bold mx-7 text-center text-indigo-800">
+          <h1 className="lg:text-2xl text-lg font-bold mx-5 text-center text-indigo-800">
             Full Stack Development
           </h1>
-          <p className="text-center text-gray-600 font-semibold text-lg px-5">
+          <p className="text-center text-gray-600 font-semibold text-sm lg:text-lg px-5">
             Full-stack web developer with expertise in both front-end and
             back-end technologies, creating robust and responsive web
             applications.
@@ -178,10 +178,10 @@ function Skills() {
         </div>
         <div className="flex-1  flex flex-col items-center space-y-8 py-10">
           <GiArtificialIntelligence className="text-7xl p-3 text-black-600 bg-[#5be9b9] rounded-full" />
-          <h1 className="text-2xl font-bold mx-5 text-center text-indigo-800">
+          <h1 className="lg:text-2xl text-lg font-bold mx-5 text-center text-indigo-800">
             AI & ML
           </h1>
-          <p className="text-center text-gray-600 font-semibold text-lg px-5">
+          <p className="text-center text-gray-600 font-semibold text-sm lg:text-lg px-5">
             In the realm of artificial intelligence, I am a dedicated deep
             learning enthusiast. My passion drives me to master neural networks,
             ensuring I remain at the forefront of AI innovation. Proficiency in
