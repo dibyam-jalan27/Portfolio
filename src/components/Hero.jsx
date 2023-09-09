@@ -35,7 +35,7 @@ export default function Hero() {
         />
       </motion.div>
       <h1 className="pt-10 text-3xl font-semibold">
-        Trust me I am an Engineer.
+        Crafting code that brings ideas to life, one algorithm at a time.
       </h1>
       <div className="pt-10 flex-col flex items-center">
         <img
